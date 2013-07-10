@@ -1,0 +1,13 @@
+<Alloy>
+	<Window title="Article Details" onAndroidbackbutton="closeMe">
+		<RightNavButton platform="ios">
+			<Button onClick="closeMe">Close</Button>
+		</RightNavButton>
+		<Label>Title:</Label>
+		<TextField id="title"/>
+		<Label>Author:</Label>		
+		<TextField id="author"/>
+		<Button onClick="updateArticle">Save Edits</Button>
+		<Button onClick="deleteArticle">Remove</Button>	
+	</Window>
+</Alloy>

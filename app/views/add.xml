@@ -1,0 +1,12 @@
+<Alloy>
+	<Window title="Add an Article" onAndroidbackbutton="closeMe">
+		<RightNavButton platform="ios">
+			<Button onClick="closeMe">Close</Button>
+		</RightNavButton>
+		<Label>Title:</Label>
+		<TextField id="title" width="200dp"/>
+		<Label>Author:</Label>		
+		<TextField id="author" width="200dp"/>
+		<Button onClick="saveArticle">Save</Button>
+	</Window>
+</Alloy>

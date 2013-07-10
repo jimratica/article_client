@@ -1,0 +1,11 @@
+<Alloy>
+	<Collection src="article">
+	<Window title="MyLibrary" exitOnClose="true" onOpen="loadExtras">
+		<RightNavButton platform="ios">
+			<Button onClick="addLibrary">Add</Button>
+		</RightNavButton>
+		<TableView dataCollection="article" top="10" onDragEnd="refreshTable">
+			<TableViewRow title="{title}" color="black" onClick="showArticle"/>
+		</TableView>
+	</Window>
+</Alloy>
