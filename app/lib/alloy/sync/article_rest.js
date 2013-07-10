@@ -1,4 +1,4 @@
-// This sync adapter makes HTTP requests to the BookService to manage data
+// This sync adapter makes HTTP requests to the playmvc api service to manage data
 
 // Global URL variable
 var BASE_URL = 'http://playmvc.dtison.net/api/articles/';
