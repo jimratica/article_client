@@ -20,8 +20,8 @@ function Controller() {
         $.__views.__alloyId17.setData(rows);
     }
     function showArticle(e) {
-        var book = library.at(e.index);
-        var detail = Alloy.createController("detail", book).getView();
+        var article = library.at(e.index);
+        var detail = Alloy.createController("detail", article).getView();
         detail.open();
     }
     function addArticle() {
