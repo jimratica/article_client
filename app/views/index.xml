@@ -1,7 +1,7 @@
 <!-- Some comment -->
 <Alloy>
 	<Collection src="article">
-	<Window title="MyLibrary" exitOnClose="true" onOpen="loadExtras">
+	<Window title="Articles" exitOnClose="true" onOpen="loadExtras">
 		<RightNavButton platform="ios">
 			<Button onClick="addLibrary">Add</Button>
 		</RightNavButton>

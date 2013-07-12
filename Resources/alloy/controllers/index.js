@@ -59,7 +59,7 @@ function Controller() {
         modal: true,
         backgroundColor: "white",
         layout: "vertical",
-        title: "MyLibrary",
+        title: "Articles",
         exitOnClose: "true",
         id: "index"
     });
