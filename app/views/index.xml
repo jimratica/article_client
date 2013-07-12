@@ -1,3 +1,4 @@
+<!-- Some comment -->
 <Alloy>
 	<Collection src="article">
 	<Window title="MyLibrary" exitOnClose="true" onOpen="loadExtras">
