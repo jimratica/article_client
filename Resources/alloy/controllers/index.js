@@ -8,7 +8,7 @@ function Controller() {
             __alloyId19.__transform = {};
             var __alloyId20 = Ti.UI.createTableViewRow({
                 font: {
-                    fontSize: "18dp",
+                    fontSize: "12dp",
                     fontWeight: "bold"
                 },
                 title: "undefined" != typeof __alloyId19.__transform["title"] ? __alloyId19.__transform["title"] : __alloyId19.get("title"),

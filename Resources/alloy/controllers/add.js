@@ -44,7 +44,7 @@ function Controller() {
         color: "#000",
         top: "10dp",
         font: {
-            fontSize: "14dp"
+            fontSize: "12dp"
         },
         text: "Title:",
         id: "__alloyId2"
@@ -63,7 +63,7 @@ function Controller() {
         color: "#000",
         top: "10dp",
         font: {
-            fontSize: "14dp"
+            fontSize: "12dp"
         },
         text: "Author:",
         id: "__alloyId3"
