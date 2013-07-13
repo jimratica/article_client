@@ -9,7 +9,7 @@
 	color: "#000",
 	top: '10dp',
 	font: {
-		fontSize: '14dp'
+		fontSize: '12dp'
 	}	
 },
 "Button": {
@@ -21,7 +21,7 @@
 },
 "TableViewRow[platform=android]": {
 	font: {
-		fontSize: '18dp',
+		fontSize: '12dp',
 		fontWeight: 'bold'
 	}
 }
