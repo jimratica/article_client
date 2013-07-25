@@ -38,7 +38,7 @@ function Controller() {
     });
     $.__views.add && $.addTopLevelView($.__views.add);
     closeMe ? $.__views.add.addEventListener("androidbackbutton", closeMe) : __defers["$.__views.add!androidbackbutton!closeMe"] = true;
-    $.__views.__alloyId2 = Ti.UI.createLabel({
+    $.__views.__alloyId8 = Ti.UI.createLabel({
         width: Ti.UI.SIZE,
         height: Ti.UI.SIZE,
         color: "#000",
@@ -47,9 +47,9 @@ function Controller() {
             fontSize: "12dp"
         },
         text: "Title:",
-        id: "__alloyId2"
+        id: "__alloyId8"
     });
-    $.__views.add.add($.__views.__alloyId2);
+    $.__views.add.add($.__views.__alloyId8);
     $.__views.title = Ti.UI.createTextField({
         borderColor: "gray",
         top: "10dp",
@@ -57,7 +57,7 @@ function Controller() {
         width: "200dp"
     });
     $.__views.add.add($.__views.title);
-    $.__views.__alloyId3 = Ti.UI.createLabel({
+    $.__views.__alloyId9 = Ti.UI.createLabel({
         width: Ti.UI.SIZE,
         height: Ti.UI.SIZE,
         color: "#000",
@@ -66,9 +66,9 @@ function Controller() {
             fontSize: "12dp"
         },
         text: "Author:",
-        id: "__alloyId3"
+        id: "__alloyId9"
     });
-    $.__views.add.add($.__views.__alloyId3);
+    $.__views.add.add($.__views.__alloyId9);
     $.__views.author = Ti.UI.createTextField({
         borderColor: "gray",
         top: "10dp",
@@ -76,19 +76,19 @@ function Controller() {
         width: "200dp"
     });
     $.__views.add.add($.__views.author);
-    $.__views.__alloyId4 = Ti.UI.createButton({
+    $.__views.__alloyId10 = Ti.UI.createButton({
         top: "10dp",
         title: "Save",
-        id: "__alloyId4"
+        id: "__alloyId10"
     });
-    $.__views.add.add($.__views.__alloyId4);
-    saveArticle ? $.__views.__alloyId4.addEventListener("click", saveArticle) : __defers["$.__views.__alloyId4!click!saveArticle"] = true;
+    $.__views.add.add($.__views.__alloyId10);
+    saveArticle ? $.__views.__alloyId10.addEventListener("click", saveArticle) : __defers["$.__views.__alloyId10!click!saveArticle"] = true;
     exports.destroy = function() {};
     _.extend($, $.__views);
     var dialogs = require("alloy/dialogs");
     __defers["$.__views.add!androidbackbutton!closeMe"] && $.__views.add.addEventListener("androidbackbutton", closeMe);
-    __defers["$.__views.__alloyId1!click!closeMe"] && $.__views.__alloyId1.addEventListener("click", closeMe);
-    __defers["$.__views.__alloyId4!click!saveArticle"] && $.__views.__alloyId4.addEventListener("click", saveArticle);
+    __defers["$.__views.__alloyId7!click!closeMe"] && $.__views.__alloyId7.addEventListener("click", closeMe);
+    __defers["$.__views.__alloyId10!click!saveArticle"] && $.__views.__alloyId10.addEventListener("click", saveArticle);
     _.extend($, exports);
 }
 
